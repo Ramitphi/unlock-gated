@@ -1,0 +1,17 @@
+{
+    "pessimistic": true,
+    "locks": {
+        "0x89AEab22f2F9035465f94BDBb0Ea30dd5c75A95c": {
+           "network": 4,
+           "name": "Huddlers"
+        }
+    },
+    "icon": "https://ipfs.io/ipfs/Qmd2JeP1vi7cpSuvBJmhjBK8bkhk5H6PzByMePGwXhjPt7",
+    "callToAction": {
+        "default": "Testing 123"
+    }
+}
+var array = JSON.stringify([ 'foo', 'bar' ]);
+var url = 'http://example.com/?data=' + encodeURIComponent(array);
+
+https://app.unlock-protocol.com/checkout?paywallConfig=%7B%0A%20%20%20%20%22pessimistic%22%3A%20true%2C%0A%20%20%20%20%22locks%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%220x89AEab22f2F9035465f94BDBb0Ea30dd5c75A95c%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%22network%22%3A%204%2C%0A%20%20%20%20%20%20%20%20%20%20%20%22name%22%3A%20%22Huddlers%22%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%2C%0A%20%20%20%20%22icon%22%3A%20%22https%3A%2F%2Fipfs.io%2Fipfs%2FQmd2JeP1vi7cpSuvBJmhjBK8bkhk5H6PzByMePGwXhjPt7%22%2C%0A%20%20%20%20%22callToAction%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22default%22%3A%20%22Testing%20123%22%0A%20%20%20%20%7D%0A%7D
